@@ -1,0 +1,678 @@
+{
+	"about": {
+		"prefix": "\\$about",
+		"body": [
+			"\\$about"
+		],
+		"description": "Returns information about the current Uniface installation, version, and platform."
+	},
+	"abs(Value)": {
+		"prefix": "\\$abs",
+		"body": [
+			"\\$abs('$1')"
+		],
+		"description": "Return the absolute value of a numeric value."
+	},
+	"acos(Value)": {
+		"prefix": "\\$acos",
+		"body": [
+			"\\$acos('$1')"
+		],
+		"description": "Return the arc cosine of value."
+	},
+	"applname": {
+		"prefix": "\\$applname",
+		"body": [
+			"\\$applname"
+		],
+		"description": "Return the name of the Application Shell."
+	},
+	"applproperties": {
+		"prefix": "\\$applproperties",
+		"body": [
+			"\\$applproperties"
+		],
+		"description": "Set the presentation properties of the application shell."
+	},
+	"appltitle": {
+		"prefix": "\\$appltitle",
+		"body": [
+			"\\$appltitle"
+		],
+		"description": "Return or set the window title bar text of a Uniface Windows application."
+	},
+	"asin(Value)": {
+		"prefix": "\\$asin",
+		"body": [
+			"\\$asin('$1')"
+		],
+		"description": "Return the arc sine of value."
+	},
+	"atan(Value)": {
+		"prefix": "\\$atan",
+		"body": [
+			"\\$atan('$1')"
+		],
+		"description": "Return the arc tangent of value."
+	},
+	"batch": {
+		"prefix": "\\$batch",
+		"body": [
+			"\\$batch"
+		],
+		"description": "Return the batch mode indicator."
+	},
+	"bold": {
+		"prefix": "\\$bold",
+		"body": [
+			"\\$bold"
+		],
+		"description": "Apply the bold character attribute to a string."
+	},
+	"callup": {
+		"prefix": "\\$callup",
+		"body": [
+			"\\$callup"
+		],
+		"description": "For the trigger that is currently being executed, call that same trigger one level up in the hierarchy. If the trigger is not defined one level up, then the next available level up is called (if applicable)."
+	},
+	"char": {
+		"prefix": "\\$char",
+		"body": [
+			"\\$char"
+		],
+		"description": "In a Unifield, return the Uniface character code for the key that activated a trigger."
+	},
+	"check": {
+		"prefix": "\\$check",
+		"body": [
+			"\\$check"
+		],
+		"description": "Return or set the checked status of a menu item."
+	},
+	"clearselection": {
+		"prefix": "\\$clearselection",
+		"body": [
+			"\\$clearselection"
+		],
+		"description": "Built-in entity operation that clears the $selected attribute of all occurrences of the entity."
+	},
+	"clock(Source)": {
+		"prefix": "\\$clock",
+		"body": [
+			"\\$clock('$1')"
+		],
+		"description": "Return the system time or convert the argument to the Time data type."
+	},
+	"collhandle(Entity)->$selectedoccs | $clearselection()": {
+		"prefix": "\\$collhandle",
+		"body": [
+			"\\$collhandle('$1')->"
+		],
+		"description": "Returns the handle of the specified entity."
+	},
+	"columnsyntax(Field, {Attributelist})": {
+		"prefix": "\\$columnsyntax",
+		"body": [
+			"\\$columnsyntax('$1', {'$2'})"
+		],
+		"description": "Set or return the syntax attributes for the field displayed in a column of a grid or multi-occurrence list."
+	},
+	"componentinfo(InstanceName, TopicName)": {
+		"prefix": "\\$componentinfo",
+		"body": [
+			"\\$componentinfo('$1', '$2')"
+		],
+		"description": "Return information about a component instance."
+	},
+	"componentname(InstanceName)": {
+		"prefix": "\\$componentname",
+		"body": [
+			"\\$componentname('$1')"
+		],
+		"description": "Return the name of the component from which the specified instance was created."
+	},
+	"componenttype(InstanceName | ComponentName)": {
+		"prefix": "\\$componenttype",
+		"body": [
+			"\\$columnsyntax('$1')"
+		],
+		"description": "Return the type of the specified component instance."
+	},
+	"concat(String1, String2, ..., String5)": {
+		"prefix": "\\$concat",
+		"body": [
+			"\\$concat('$1', '$2')"
+		],
+		"description": "Concatenate up to 5 strings."
+	},
+	"condition(Condition, {DataList})": {
+		"prefix": "\\$condition",
+		"body": [
+			"\\$condition('$1')"
+		],
+		"description": "Return the result of evaluating a conditional expression."
+	},
+	"cos(Value)": {
+		"prefix": "\\$cos",
+		"body": [
+			"\\$cos('$1')"
+		],
+		"description": "Return the cosine of value."
+	},
+	"CurEntProperties(Entity, {Properties})": {
+		"prefix": "\\$CurEntProperties",
+		"body": [
+			"\\$CurEntProperties('$1', '$2')"
+		],
+		"description": "Set properties for an inner entity within the current occurrence of its parent entity."
+	},
+	"curhits(Entity)": {
+		"prefix": "\\$curhits",
+		"body": [
+			"\\$curhits('$1')"
+		],
+		"description": "Return the number of occurrences in the hitlist."
+	},
+	"curkey": {
+		"prefix": "\\$curkey",
+		"body": [
+			"\\$curkey"
+		],
+		"description": "Return the number of the current key in a validateKey or leaveModifiedKey trigger."
+	},
+	"curocc(Entity)": {
+		"prefix": "\\$curocc",
+		"body": [
+			"\\$curocc('$1')"
+		],
+		"description": "Return the sequence number of the current occurrence in the hitlist."
+	},
+	"curoccvideo(Entity, {Option})": {
+		"prefix": "\\$curoccvideo",
+		"body": [
+			"\\$curoccvideo('$1', '$2')"
+		],
+		"description": "Set or return the video properties for fields of the current occurrence."
+	},
+	"curline": {
+		"prefix": "\\$curline",
+		"body": [
+			"\\$curline"
+		],
+		"description": "Return the line on which the cursor is positioned in the current Unifield."
+	},
+	"curword": {
+		"prefix": "\\$curword",
+		"body": [
+			"\\$curword"
+		],
+		"description": "Return the word on which the cursor is positioned in the current Unifield."
+	},
+	"dataerrorcontext": {
+		"prefix": "\\$dataerrorcontext",
+		"body": [
+			"\\$dataerrorcontext"
+		],
+		"description": "Return the context of the last validation error."
+	},
+	"date(Source)": {
+		"prefix": "\\$date",
+		"body": [
+			"\\$date('$1')"
+		],
+		"description": "Return the current date or convert the argument to the Date data type."
+	},
+	"datim(Source)": {
+		"prefix": "\\$datim",
+		"body": [
+			"\\$datim('$1')"
+		],
+		"description": "Return the system date and time, or convert the argument to the Datetime data type."
+	},
+	"dberror": {
+		"prefix": "\\$dberror",
+		"body": [
+			"\\$dberror"
+		],
+		"description": "Return the error code reported by the DBMS."
+	},
+	"dberrortext": {
+		"prefix": "\\$dberrortext",
+		"body": [
+			"\\$dberrortext"
+		],
+		"description": "Return the text of an error reported by the DBMS."
+	},
+	"dbocc(Entity)": {
+		"prefix": "\\$dbocc",
+		"body": [
+			"\\$dbocc('$1')"
+		],
+		"description": "Return the sequence number of the current occurrence within the set of occurrences retrieved from the database."
+	},
+	"decode(Algorithm, Source, {key, {Mode, InitializationVector}})": {
+		"prefix": "\\$decode",
+		"body": [
+			"\\$decode('$1', '$2')"
+		],
+		"description": "Decrypt or decode data, or verify a message by means of a digital signature."
+	},
+	"decode(Algorithm, Source, Key, Signature )": {
+		"prefix": "\\$decode",
+		"body": [
+			"\\$decode('$1', '$2', '$3', '$4')"
+		],
+		"description": "Decrypt or decode data, or verify a message by means of a digital signature."
+	},
+	"direction": {
+		"prefix": "\\$direction",
+		"body": [
+			"\\$direction"
+		],
+		"description": "Return the structure editor mode (Next or Previous)."
+	},
+	"disable": {
+		"prefix": "\\$disable",
+		"body": [
+			"\\$disable"
+		],
+		"description": "Disables a menu item in a menu object."
+	},
+	"display": {
+		"prefix": "\\$display",
+		"body": [
+			"\\$display"
+		],
+		"description": "Return the name of the current display device translation table."
+	},
+	"def_charset": {
+		"prefix": "\\$def_charset",
+		"body": [
+			"\\$def_charset"
+		],
+		"description": "Set or return the value of $DEF_CHARSET, which defines the character set used for storing data in String fields with C packing code."
+	},
+	"detachedinstances": {
+		"prefix": "\\$detachedinstances",
+		"body": [
+			"\\$detachedinstances"
+		],
+		"description": "Return a list of detached instances."
+	},
+	"dirlist( DirPath, {Topic})": {
+		"prefix": "\\$dirlist",
+		"body": [
+			"\\$dirlist('$1', '$2')"
+		],
+		"description": "Return the contents of the specified directory."
+	},
+	"displaylength(String)": {
+		"prefix": "\\$displaylength",
+		"body": [
+			"\\$displaylength('$1')"
+		],
+		"description": "Return the display length of a String when displayed in the system character set."
+	},
+	"e()": {
+		"prefix": "\\$e",
+		"body": [
+			"\\$e()"
+		],
+		"description": "Return the value of e (Euler's number), the base of the natural logarithm"
+	},
+	"editmode": {
+		"prefix": "\\$editmode",
+		"body": [
+			"\\$editmode"
+		],
+		"description": "Return or set a value that determines the degree to which a user can change data on the form component."
+	},
+	"empty(Frame)": {
+		"prefix": "\\$empty",
+		"body": [
+			"\\$empty('$1')"
+		],
+		"description": "Return the empty frame status for an entity or named area frame."
+	},
+	"encode(Algorithm, Source, {Key, {Mode, InitializationVector}})": {
+		"prefix": "\\$encode",
+		"body": [
+			"\\$encode('$1', '$2')"
+		],
+		"description": "Encrypt data, sign messages with digital signatures, or convert data from one encoding scheme to another."
+	},
+	"entinfo(Entity, Topic)": {
+		"prefix": "\\$entinfo",
+		"body": [
+			"\\$entinfo('$1', '$2')"
+		],
+		"description": "Return information about an entity."
+	},
+	"entname(Entity)": {
+		"prefix": "\\$entname",
+		"body": [
+			"\\$entname('$1')"
+		],
+		"description": "Return the name of the current entity or check for the existence of an entity in the component."
+	},
+	"error": {
+		"prefix": "\\$error",
+		"body": [
+			"\\$error"
+		],
+		"description": "Returns the Uniface message number for the error."
+	},
+	"equalStructRefs(Struct1, Struct2)": {
+		"prefix": "\\$equalStructRefs",
+		"body": [
+			"\\$equalStructRefs('$1', '$2')"
+		],
+		"description": "Checks whether two variables of type struct reference the same physical Struct."
+	},
+	"exp(Value)": {
+		"prefix": "\\$exp",
+		"body": [
+			"\\$exp('$1')"
+		],
+		"description": "Return the exponential of Value (e Value)."
+	},
+	"exp10(Value)": {
+		"prefix": "\\$displaylength",
+		"body": [
+			"\\$displaylength('$1')"
+		],
+		"description": "Return the base 10 exponential of Value (10 Value)."
+	},
+	"expression(Expression, {DataList})": {
+		"prefix": "\\$expression",
+		"body": [
+			"\\$expression('$1', '$2')"
+		],
+		"description": "Return the result of evaluating a nonconditional expression."
+	},
+	"fact(Value)": {
+		"prefix": "\\$fact",
+		"body": [
+			"\\$fact('$1')"
+		],
+		"description": "Calculate the factorial of Value (Value!)."
+	},
+	"$fieldcheck(Field)": {
+		"prefix": "\\$fieldcheck",
+		"body": [
+			"\\$fieldcheck('$1')"
+		],
+		"description": "Return or set the requirement for field validation."
+	},
+	"$fielddbmod(Field)": {
+		"prefix": "\\$fielddbmod",
+		"body": [
+			"\\$fielddbmod('$1')"
+		],
+		"description": "Return the modification status of a database field."
+	},
+	"$fielddbvalue(Field)": {
+		"prefix": "\\$fielddbvalue",
+		"body": [
+			"\\$fielddbvalue('$1')"
+		],
+		"description": "Return the original value of a field as it was retrieved from the database."
+	},
+	"$fieldendmod(Field)": {
+		"prefix": "\\$fieldendmod",
+		"body": [
+			"\\$fieldendmod('$1')"
+		],
+		"description": "Return the modification status of a field when the field is exited."
+	},
+	"$fieldhandle(Field)": {
+		"prefix": "\\$fieldhandle",
+		"body": [
+			"\\$fieldhandle('$1')"
+		],
+		"description": "Return a partner handle to the widget that is currently bound to the specified field of the current occurrence."
+	},
+	"$fieldindb(Field)": {
+		"prefix": "\\$fieldindb",
+		"body": [
+			"\\$fieldindb('$1')"
+		],
+		"description": "Check whether a field is a database field, or not."
+	},
+	"$fieldinfo(Field, Topic)": {
+		"prefix": "\\$fieldinfo",
+		"body": [
+			"\\$fieldinfo('$1', '$2')"
+		],
+		"description": "Return information about a field."
+	},
+	"$fieldmod(Field)": {
+		"prefix": "\\$fieldmod",
+		"body": [
+			"\\$fieldmod('$1')"
+		],
+		"description": "Return the modification status of a field."
+	},
+	"$fieldname(Field)": {
+		"prefix": "\\$fieldname",
+		"body": [
+			"\\$fieldname('$1')"
+		],
+		"description": "Return the name of the current field or check for the presence of a specified field in the component."
+	},
+	"$fieldprofile(Field)": {
+		"prefix": "\\$fieldprofile",
+		"body": [
+			"\\$fieldprofile('$1')"
+		],
+		"description": "Return a value that indicates whether the user has entered a profile character in a field."
+	},
+	"$fieldproperties(Field, {PropertyList})": {
+		"prefix": "\\$fieldproperties",
+		"body": [
+			"\\$fieldproperties('$1', '$2')"
+		],
+		"description": "Return or set the current widget properties of an instance of a field."
+	},
+	"$fieldsyntax(Field)": {
+		"prefix": "\\$fieldsyntax",
+		"body": [
+			"\\$fieldsyntax('$1')"
+		],
+		"description": "Set or return the syntax attributes of the specified field."
+	},
+	"$fieldvalrep(Field, {List})": {
+		"prefix": "\\$fieldvalrep",
+		"body": [
+			"\\$fieldvalrep('$1', )"
+		],
+		"description": "Return or set the associative (ValRep) list for an instance of a field."
+	},
+	"$fieldvalidation(Field)": {
+		"prefix": "\\$fieldvalidation",
+		"body": [
+			"\\$fieldvalidation('$1')"
+		],
+		"description": "Identify whether a field requires validation."
+	},
+	"$fieldvideo(Field)": {
+		"prefix": "\\$fieldvideo ",
+		"body": [
+			"\\$fieldvideo('$1')"
+		],
+		"description": "Return or set the video attributes of the specified field."
+	},
+	"$fileexists(FilePath | DirPath)": {
+		"prefix": "\\$fileexists",
+		"body": [
+			"\\$fileexists('$1')"
+		],
+		"description": "Returns a value that indicates whether the specified file or directory exists."
+	},
+	"$fileproperties(FilePath | DirPath, {Topic})": {
+		"prefix": "\\$fileproperties",
+		"body": [
+			"\\$fileproperties('$1', '$2')"
+		],
+		"description": "Return the properties of the specified file, directory, or zip archive, taking file redirections in the assignment file into account."
+	},
+	"$foreign(Entity)": {
+		"prefix": "\\$foreign",
+		"body": [
+			"\\$foreign('$1')"
+		],
+		"description": "Return a boolean value that indicates whether the entity is an Up entity in the component structure."
+	},
+	"$format": {
+		"prefix": "\\$format",
+		"body": [
+			"\\$format"
+		],
+		"description": "Return the field data, formatted according to the display format (DIS)."
+	},
+	"$formfocus": {
+		"prefix": "\\$formfocus",
+		"body": [
+			"\\$formfocus"
+		],
+		"description": "Return the name of the Form instance that has focus."
+	},
+	"$formmodality(InstanceName)": {
+		"prefix": "\\$formmodality",
+		"body": [
+			"\\$formmodality('$1')"
+		],
+		"description": "Return an indication of the form modality for the requested form instance."
+	},
+	"$formtitle": {
+		"prefix": "\\$formtitle",
+		"body": [
+			"\\$formtitle"
+		],
+		"description": "Return or set the title of the window title containing the Form instance."
+	},
+	"$frac(Value)": {
+		"prefix": "\\$frac",
+		"body": [
+			"\\$frac('$1')"
+		],
+		"description": "Return the fractional part of Value."
+	},
+	"$framedepth(Entity)": {
+		"prefix": "\\$framedepth",
+		"body": [
+			"\\$framedepth('$1')"
+		],
+		"description": "Return the number of lines needed to print a frame as drawn on the component, without allowing for expansion"
+	},
+	"$gui": {
+		"prefix": "\\$gui",
+		"body": [
+			"\\$gui"
+		],
+		"description": "Return the mnemonic (CHR or MSW) for the user interface."
+	},
+	"$hide": {
+		"prefix": "\\$hide",
+		"body": [
+			"\\$hide"
+		],
+		"description": "Return or set the display status of a menu item."
+	},
+	"$hits(Entity)": {
+		"prefix": "\\$hits",
+		"body": [
+			"\\$hits('$1')"
+		],
+		"description": "Return the number of occurrences in the hitlist."
+	},
+	"$idpart(AssociativeListItem)": {
+		"prefix": "\\$idpart",
+		"body": [
+			"\\$idpart('$1')"
+		],
+		"description": "Return the ID part of an associative list item."
+	},
+	"$inlinemenu": {
+		"prefix": "\\$inlinemenu",
+		"body": [
+			"\\$inlinemenu"
+		],
+		"description": "Insert or retrieve one or more menu items at the location of a dynamic menu placeholder"
+	},
+	"$instancechildren(InstanceName)": {
+		"prefix": "\\$instancechildren",
+		"body": [
+			"\\$instancechildren('$1')"
+		],
+		"description": "Return a list of component instances attached to a specified component instance."
+	},
+	"$instancedb(InstanceName)": {
+		"prefix": "\\$instancedb",
+		"body": [
+			"\\$instancedb('$1')"
+		],
+		"description": "Return an indication whether data in the current instance has been retrieved from a database."
+	},
+	"$instancedbmod(InstanceName)": {
+		"prefix": "\\$instancedbmod",
+		"body": [
+			"\\$instancedbmod('$1')"
+		],
+		"description": "Return the modification status of database fields in the current component instance."
+	},
+	"$instancehandle(InstanceName)": {
+		"prefix": "\\$instancehandle",
+		"body": [
+			"\\$instancehandle('$1')"
+		],
+		"description": "Return the handle of the requested component instance."
+	},
+	"$instancelayout": {
+		"prefix": "\\$instancelayout",
+		"body": [
+			"\\$instancelayout"
+		],
+		"description": "Return or set the layout property of the current component instance."
+	},
+	"$instancemod(InstanceName)": {
+		"prefix": "\\$instancemod",
+		"body": [
+			"\\$instancemod('$1')"
+		],
+		"description": "Return or set the modification status of data in the current component instance."
+	},
+	"model name": {
+		"prefix": "\\$modelname",
+		"body": [
+			"\\$modelname('$1')"
+		],
+		"description": "Return the value of the Model property (the suffix of the entity name) of the specified entity"
+	},
+
+
+
+
+	"putitem(list, index, element)": {
+		"prefix": "putitem ",
+		"body": [
+			"putitem"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id(list, id, element)": {
+		"prefix": "putitem/id ",
+		"body": [
+			"putitem/id"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id/case(list, id, element)": {
+		"prefix": "putitem/id/case",
+		"body": [
+			"putitem/id/case "
+		],
+		"description": "Add or replace an item in a list."
+	}
+}

@@ -15,6 +15,10 @@
             "id": "uniface",
             "aliases": ["Uniface", "uniface"],
             "extensions": [".uni"],
+            "icon": {
+                "light": "./resources/uniface-icon-logo.png",
+                "dark": "./resources/uniface-icon-logo.png"
+            },
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
@@ -24,9 +28,13 @@
         }],
         "snippets": [
             {
-              "language": "uniface",
-              "path": "./snippets/snippets.json"
+                "language": "uniface",
+                "path": "./snippets/snippets-functions.json"
+            },
+            {
+                "language": "uniface",
+                "path": "./snippets/snippets-statements.json"
             }
-          ]
+        ]
     }
 }

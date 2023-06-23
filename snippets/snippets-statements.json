@@ -1,0 +1,23 @@
+{
+	"putitem(list, index, element)": {
+		"prefix": "putitem ",
+		"body": [
+			"putitem"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id(list, id, element)": {
+		"prefix": "putitem/id ",
+		"body": [
+			"putitem/id"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id/case(list, id, element)": {
+		"prefix": "putitem/id/case",
+		"body": [
+			"putitem/id/case "
+		],
+		"description": "Add or replace an item in a list."
+	}
+}
