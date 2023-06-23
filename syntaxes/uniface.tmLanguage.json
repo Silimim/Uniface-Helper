@@ -87,16 +87,984 @@
 			"name": "support.function",
 			"patterns": [
 				{
-					"name": "support.function.uniface",
+					"name": "support.function.uniface.about",
 					"match": "\\$about"
 				},
 				{
-					"name": "support.function.uniface",
+					"name": "support.function.uniface.abs",
+					"match": "\\$abs"
+				},
+				{
+					"name": "support.function.uniface.acos",
+					"match": "\\$acos"
+				},
+				{
+					"name": "support.function.uniface.applname",
+					"match": "\\$applname"
+				},
+				{
+					"name": "support.function.uniface.applproperties",
+					"match": "\\$applproperties"
+				},
+				{
+					"name": "support.function.uniface.appltitle",
+					"match": "\\$appltitle"
+				},
+				{
+					"name": "support.function.uniface.asin",
+					"match": "\\$asin"
+				},
+				{
+					"name": "support.function.uniface.atan",
+					"match": "\\$atan"
+				},
+				{
+					"name": "support.function.uniface.batch",
+					"match": "\\$batch"
+				},
+				{
+					"name": "support.function.uniface.bold",
+					"match": "\\$bold"
+				},
+				{
+					"name": "support.function.uniface.callup",
+					"match": "\\$callup"
+				},
+				{
+					"name": "support.function.uniface.char",
+					"match": "\\$char"
+				},
+				{
+					"name": "support.function.uniface.check",
+					"match": "\\$check"
+				},
+				{
+					"name": "support.function.uniface.clearselection",
+					"match": "\\$clearselection"
+				},
+				{
+					"name": "support.function.uniface.clock",
+					"match": "\\$clock"
+				},
+				{
+					"name": "support.function.uniface.collhandle",
+					"match": "\\$collhandle"
+				},
+				{
+					"name": "support.function.uniface.columnsyntax",
+					"match": "\\$columnsyntax"
+				},
+				{
+					"name": "support.function.uniface.componentinfo",
+					"match": "\\$componentinfo"
+				},
+				{
+					"name": "support.function.uniface.componentname",
+					"match": "\\$componentname"
+				},
+				{
+					"name": "support.function.uniface.componenttype",
+					"match": "\\$componenttype"
+				},
+				{
+					"name": "support.function.uniface.concat",
+					"match": "\\$concat"
+				},
+				{
+					"name": "support.function.uniface.condition",
+					"match": "\\$condition"
+				},
+				{
+					"name": "support.function.uniface.cos",
+					"match": "\\$cos"
+				},
+				{
+					"name": "support.function.uniface.CurEntProperties",
+					"match": "\\$CurEntProperties"
+				},
+				{
+					"name": "support.function.uniface.curhits",
+					"match": "\\$curhits"
+				},
+				{
+					"name": "support.function.uniface.curkey",
+					"match": "\\$curkey"
+				},
+				{
+					"name": "support.function.uniface.curocc",
+					"match": "\\$curocc"
+				},
+				{
+					"name": "support.function.uniface.curoccvideo",
+					"match": "\\$curoccvideo"
+				},
+				{
+					"name": "support.function.uniface.curline",
+					"match": "\\$curline"
+				},
+				{
+					"name": "support.function.uniface.curword",
+					"match": "\\$curword"
+				},
+				{
+					"name": "support.function.uniface.dataerrorcontext",
+					"match": "\\$dataerrorcontext"
+				},
+				{
+					"name": "support.function.uniface.date",
+					"match": "\\$date"
+				},
+				{
+					"name": "support.function.uniface.datim",
+					"match": "\\$datim"
+				},
+				{
+					"name": "support.function.uniface.dberror",
+					"match": "\\$dberror"
+				},
+				{
+					"name": "support.function.uniface.dberrortext",
+					"match": "\\$dberrortext"
+				},
+				{
+					"name": "support.function.uniface.dbocc",
+					"match": "\\$dbocc"
+				},
+				{
+					"name": "support.function.uniface.decode",
+					"match": "\\$decode"
+				},
+				{
+					"name": "support.function.uniface.decode",
+					"match": "\\$decode"
+				},
+				{
+					"name": "support.function.uniface.direction",
+					"match": "\\$direction"
+				},
+				{
+					"name": "support.function.uniface.disable",
+					"match": "\\$disable"
+				},
+				{
+					"name": "support.function.uniface.display",
+					"match": "\\$display"
+				},
+				{
+					"name": "support.function.uniface.def_charset",
+					"match": "\\$def_charset"
+				},
+				{
+					"name": "support.function.uniface.detachedinstances",
+					"match": "\\$detachedinstances"
+				},
+				{
+					"name": "support.function.uniface.dirlist",
+					"match": "\\$dirlist"
+				},
+				{
+					"name": "support.function.uniface.displaylength",
+					"match": "\\$displaylength"
+				},
+				{
+					"name": "support.function.uniface.e",
+					"match": "\\$e"
+				},
+				{
+					"name": "support.function.uniface.editmode",
+					"match": "\\$editmode"
+				},
+				{
+					"name": "support.function.uniface.empty",
+					"match": "\\$empty"
+				},
+				{
+					"name": "support.function.uniface.encode",
+					"match": "\\$encode"
+				},
+				{
+					"name": "support.function.uniface.entinfo",
+					"match": "\\$entinfo"
+				},
+				{
+					"name": "support.function.uniface.entname",
+					"match": "\\$entname"
+				},
+				{
+					"name": "support.function.uniface.error",
+					"match": "\\$error"
+				},
+				{
+					"name": "support.function.uniface.equalStructRefs",
+					"match": "\\$equalStructRefs"
+				},
+				{
+					"name": "support.function.uniface.exp",
+					"match": "\\$exp"
+				},
+				{
+					"name": "support.function.uniface.displaylength",
+					"match": "\\$displaylength"
+				},
+				{
+					"name": "support.function.uniface.expression",
+					"match": "\\$expression"
+				},
+				{
+					"name": "support.function.uniface.fact",
+					"match": "\\$fact"
+				},
+				{
+					"name": "support.function.uniface.fieldcheck",
+					"match": "\\$fieldcheck"
+				},
+				{
+					"name": "support.function.uniface.fielddbmod",
+					"match": "\\$fielddbmod"
+				},
+				{
+					"name": "support.function.uniface.fielddbvalue",
+					"match": "\\$fielddbvalue"
+				},
+				{
+					"name": "support.function.uniface.fieldendmod",
+					"match": "\\$fieldendmod"
+				},
+				{
+					"name": "support.function.uniface.fieldhandle",
+					"match": "\\$fieldhandle"
+				},
+				{
+					"name": "support.function.uniface.fieldindb",
+					"match": "\\$fieldindb"
+				},
+				{
+					"name": "support.function.uniface.fieldinfo",
+					"match": "\\$fieldinfo"
+				},
+				{
+					"name": "support.function.uniface.fieldmod",
+					"match": "\\$fieldmod"
+				},
+				{
+					"name": "support.function.uniface.fieldname",
+					"match": "\\$fieldname"
+				},
+				{
+					"name": "support.function.uniface.fieldprofile",
+					"match": "\\$fieldprofile"
+				},
+				{
+					"name": "support.function.uniface.fieldproperties",
+					"match": "\\$fieldproperties"
+				},
+				{
+					"name": "support.function.uniface.fieldsyntax",
+					"match": "\\$fieldsyntax"
+				},
+				{
+					"name": "support.function.uniface.fieldvalrep",
+					"match": "\\$fieldvalrep"
+				},
+				{
+					"name": "support.function.uniface.fieldvalidation",
+					"match": "\\$fieldvalidation"
+				},
+				{
+					"name": "support.function.uniface.fieldvideo ",
+					"match": "\\$fieldvideo "
+				},
+				{
+					"name": "support.function.uniface.fileexists",
+					"match": "\\$fileexists"
+				},
+				{
+					"name": "support.function.uniface.fileproperties",
+					"match": "\\$fileproperties"
+				},
+				{
+					"name": "support.function.uniface.foreign",
+					"match": "\\$foreign"
+				},
+				{
+					"name": "support.function.uniface.format",
+					"match": "\\$format"
+				},
+				{
+					"name": "support.function.uniface.formfocus",
+					"match": "\\$formfocus"
+				},
+				{
+					"name": "support.function.uniface.formmodality",
+					"match": "\\$formmodality"
+				},
+				{
+					"name": "support.function.uniface.formtitle",
+					"match": "\\$formtitle"
+				},
+				{
+					"name": "support.function.uniface.frac",
+					"match": "\\$frac"
+				},
+				{
+					"name": "support.function.uniface.framedepth",
+					"match": "\\$framedepth"
+				},
+				{
+					"name": "support.function.uniface.gui",
+					"match": "\\$gui"
+				},
+				{
+					"name": "support.function.uniface.hide",
+					"match": "\\$hide"
+				},
+				{
+					"name": "support.function.uniface.hits",
+					"match": "\\$hits"
+				},
+				{
+					"name": "support.function.uniface.idpart",
+					"match": "\\$idpart"
+				},
+				{
+					"name": "support.function.uniface.inlinemenu",
+					"match": "\\$inlinemenu"
+				},
+				{
+					"name": "support.function.uniface.instancechildren",
+					"match": "\\$instancechildren"
+				},
+				{
+					"name": "support.function.uniface.instancedb",
+					"match": "\\$instancedb"
+				},
+				{
+					"name": "support.function.uniface.instancedbmod",
+					"match": "\\$instancedbmod"
+				},
+				{
+					"name": "support.function.uniface.instancehandle",
+					"match": "\\$instancehandle"
+				},
+				{
+					"name": "support.function.uniface.instancelayout",
+					"match": "\\$instancelayout"
+				},
+				{
+					"name": "support.function.uniface.instancemod",
+					"match": "\\$instancemod"
+				},
+				{
+					"name": "support.function.uniface.instancename",
+					"match": "\\$instancename"
+				},
+				{
+					"name": "support.function.uniface.instanceparent",
+					"match": "\\$instanceparent"
+				},
+				{
+					"name": "support.function.uniface.instancepath",
+					"match": "\\$instancepath"
+				},
+				{
+					"name": "support.function.uniface.instances",
+					"match": "\\$instances"
+				},
+				{
+					"name": "support.function.uniface.instancevalidation",
+					"match": "\\$instancevalidation"
+				},
+				{
+					"name": "support.function.uniface.int",
+					"match": "\\$int"
+				},
+				{
+					"name": "support.function.uniface.interactive",
+					"match": "\\$interactive"
+				},
+				{
+					"name": "support.function.uniface.ioprint",
+					"match": "\\$ioprint"
+				},
+				{
+					"name": "support.function.uniface.italic",
+					"match": "\\$italic"
+				},
+				{
+					"name": "support.function.uniface.item",
+					"match": "\\$item"
+				},
+				{
+					"name": "support.function.uniface.itemcount",
+					"match": "\\$itemcount"
+				},
+				{
+					"name": "support.function.uniface.itemnr",
+					"match": "\\$itemnr"
+				},
+				{
+					"name": "support.function.uniface.keyboard",
+					"match": "\\$keyboard"
+				},
+				{
+					"name": "support.function.uniface.keycheck",
+					"match": "\\$keycheck"
+				},
+				{
+					"name": "support.function.uniface.keyfields",
+					"match": "\\$keyfields"
+				},
+				{
+					"name": "support.function.uniface.keymod",
+					"match": "\\$keymod"
+				},
+				{
+					"name": "support.function.uniface.keytype",
+					"match": "\\$keytype"
+				},
+				{
+					"name": "support.function.uniface.keyvalidation",
+					"match": "\\$keyvalidation"
+				},
+				{
+					"name": "support.function.uniface.labelproperties",
+					"match": "\\$labelproperties"
+				},
+				{
+					"name": "support.function.uniface.language",
+					"match": "\\$language"
+				},
+				{
+					"name": "support.function.uniface.lines",
+					"match": "\\$lines"
+				},
+				{
+					"name": "support.function.uniface.ldir",
+					"match": "\\$ldir"
+				},
+				{
+					"name": "support.function.uniface.ldirlist",
+					"match": "\\$ldirlist"
+				},
+				{
+					"name": "support.function.uniface.length",
+					"match": "\\$length"
+				},
+				{
+					"name": "support.function.uniface.lfileexists",
+					"match": "\\$lfileexists"
+				},
+				{
+					"name": "support.function.uniface.lfileproperties",
+					"match": "\\$lfileproperties"
+				},
+				{
+					"name": "support.function.uniface.log",
+					"match": "\\$log"
+				},
+				{
+					"name": "support.function.uniface.log10",
+					"match": "\\$log10"
+				},
+				{
+					"name": "support.function.uniface.logical",
+					"match": "\\$logical"
+				},
+				{
+					"name": "support.function.uniface.lowercase",
+					"match": "\\$lowercase"
+				},
+				{
+					"name": "support.function.uniface.ltrim ",
+					"match": "\\$ltrim "
+				},
+				{
+					"name": "support.function.uniface.modelname",
 					"match": "\\$modelname"
 				},
 				{
-					"name": "support.function.uniface",
+					"name": "support.function.uniface.msgdata",
+					"match": "\\$msgdata"
+				},
+				{
+					"name": "support.function.uniface.msgdst",
+					"match": "\\$msgdst"
+				},
+				{
+					"name": "support.function.uniface.msgid",
+					"match": "\\$msgid"
+				},
+				{
+					"name": "support.function.uniface.msginfo",
+					"match": "\\$msginfo"
+				},
+				{
+					"name": "support.function.uniface.msgsrc",
+					"match": "\\$msgsrc"
+				},
+				{
+					"name": "support.function.uniface.newstruct",
+					"match": "\\$newstruct"
+				},
+				{
+					"name": "support.function.uniface.next",
+					"match": "\\$next"
+				},
+				{
+					"name": "support.function.uniface.nlscase",
+					"match": "\\$nlscase"
+				},
+				{
+					"name": "support.function.uniface.nlsformat",
+					"match": "\\$nlsformat"
+				},
+				{
+					"name": "support.function.uniface.nlsinternaltime",
+					"match": "\\$nlsinternaltime"
+				},
+				{
+					"name": "support.function.uniface.nlslocale",
+					"match": "\\$nlslocale"
+				},
+				{
+					"name": "support.function.uniface.nlslocalelist",
+					"match": "\\$nlslocalelist"
+				},
+				{
+					"name": "support.function.uniface.nlssortorder",
+					"match": "\\$nlssortorder"
+				},
+				{
+					"name": "support.function.uniface.nlstimezone",
+					"match": "\\$nlstimezone"
+				},
+				{
+					"name": "support.function.uniface.nlstimezonelist",
+					"match": "\\$nlstimezonelist"
+				},
+				{
+					"name": "support.function.uniface.nmforms",
+					"match": "\\$nmforms"
+				},
+				{
+					"name": "support.function.uniface.number",
+					"match": "\\$number"
+				},
+				{
+					"name": "support.function.uniface.occcheck",
+					"match": "\\$occcheck"
+				},
+				{
+					"name": "support.function.uniface.occcrc",
+					"match": "\\$occcrc"
+				},
+				{
+					"name": "support.function.uniface.occdbmod",
+					"match": "\\$occdbmod"
+				},
+				{
+					"name": "support.function.uniface.occdel",
+					"match": "\\$occdel"
+				},
+				{
+					"name": "support.function.uniface.occdepth",
+					"match": "\\$occdepth"
+				},
+				{
+					"name": "support.function.uniface.occhandle",
+					"match": "\\$occhandle"
+				},
+				{
+					"name": "support.function.uniface.occmod",
+					"match": "\\$occmod"
+				},
+				{
+					"name": "support.function.uniface.occproperties",
+					"match": "\\$occproperties"
+				},
+				{
+					"name": "support.function.uniface.occstatus",
+					"match": "\\$occstatus"
+				},
+				{
+					"name": "support.function.uniface.occvalidation",
+					"match": "\\$occvalidation"
+				},
+				{
+					"name": "support.function.uniface.ocxhandle",
+					"match": "\\$ocxhandle"
+				},
+				{
+					"name": "support.function.uniface.oprsys",
+					"match": "\\$oprsys"
+				},
+				{
+					"name": "support.function.uniface.page",
+					"match": "\\$page"
+				},
+				{
+					"name": "support.function.uniface.paintedfieldproperties",
+					"match": "\\$paintedfieldproperties"
+				},
+				{
+					"name": "support.function.uniface.paintedocc",
+					"match": "\\$paintedocc"
+				},
+				{
+					"name": "support.function.uniface.password",
+					"match": "\\$password"
+				},
+				{
+					"name": "support.function.uniface.pi",
+					"match": "\\$pi"
+				},
+				{
+					"name": "support.function.uniface.power",
+					"match": "\\$power"
+				},
+				{
+					"name": "support.function.uniface.previous",
+					"match": "\\$previous"
+				},
+				{
+					"name": "support.function.uniface.printing",
+					"match": "\\$printing"
+				},
+				{
+					"name": "support.function.uniface.proc_profiling",
+					"match": "\\$proc_profiling"
+				},
+				{
+					"name": "support.function.uniface.proc_tracing",
+					"match": "\\$proc_tracing"
+				},
+				{
+					"name": "support.function.uniface.proc_tracing_addition",
+					"match": "\\$proc_tracing_addition"
+				},
+				{
+					"name": "support.function.uniface.processinfo",
+					"match": "\\$processinfo"
+				},
+				{
+					"name": "support.function.uniface.procerror",
+					"match": "\\$procerror"
+				},
+				{
+					"name": "support.function.uniface.procerrorcontext",
+					"match": "\\$procerrorcontext"
+				},
+				{
+					"name": "support.function.uniface.procReturnContext",
+					"match": "\\$procReturnContext"
+				},
+				{
+					"name": "support.function.uniface.properties",
+					"match": "\\$properties"
+				},
+				{
+					"name": "support.function.uniface.putmess",
+					"match": "\\$putmess"
+				},
+				{
+					"name": "support.function.uniface.relation",
+					"match": "\\$relation"
+				},
+				{
+					"name": "support.function.uniface.replace",
+					"match": "\\$replace"
+				},
+				{
+					"name": "support.function.uniface.result",
 					"match": "\\$result"
+				},
+				{
+					"name": "support.function.uniface.rettype",
+					"match": "\\$rettype"
+				},
+				{
+					"name": "support.function.uniface.rscan",
+					"match": "\\$rscan"
+				},
+				{
+					"name": "support.function.uniface.rtrim",
+					"match": "\\$rtrim"
+				},
+				{
+					"name": "support.function.uniface.scan",
+					"match": "\\$scan"
+				},
+				{
+					"name": "support.function.uniface.selblk",
+					"match": "\\$selblk"
+				},
+				{
+					"name": "support.function.uniface.selected",
+					"match": "\\$selected"
+				},
+				{
+					"name": "support.function.uniface.selectedoccs",
+					"match": "\\$selectedoccs"
+				},
+				{
+					"name": "support.function.uniface.selectlist",
+					"match": "\\$selectlist"
+				},
+				{
+					"name": "support.function.uniface.setting",
+					"match": "\\$setting"
+				},
+				{
+					"name": "support.function.uniface.setting",
+					"match": "\\$setting"
+				},
+				{
+					"name": "support.function.uniface.signatureproperties",
+					"match": "\\$signatureproperties"
+				},
+				{
+					"name": "support.function.uniface.sin",
+					"match": "\\$sin"
+				},
+				{
+					"name": "support.function.uniface.sortlist",
+					"match": "\\$sortlist"
+				},
+				{
+					"name": "support.function.uniface.sortlistid",
+					"match": "\\$sortlistid"
+				},
+				{
+					"name": "support.function.uniface.split",
+					"match": "\\$split"
+				},
+				{
+					"name": "support.function.uniface.sqrt",
+					"match": "\\$sqrt"
+				},
+				{
+					"name": "support.function.uniface.status",
+					"match": "\\$status"
+				},
+				{
+					"name": "support.function.uniface.storetype",
+					"match": "\\$storetype"
+				},
+				{
+					"name": "support.function.uniface.string",
+					"match": "\\$string"
+				},
+				{
+					"name": "support.function.uniface.stripattributes",
+					"match": "\\$stripattributes"
+				},
+				{
+					"name": "support.function.uniface.subsetreturn",
+					"match": "\\$subsetreturn"
+				},
+				{
+					"name": "support.function.uniface.syntax",
+					"match": "\\$syntax"
+				},
+				{
+					"name": "support.function.uniface.sys_charset",
+					"match": "\\$sys_charset"
+				},
+				{
+					"name": "support.function.uniface.tan",
+					"match": "\\$tan"
+				},
+				{
+					"name": "support.function.uniface.text",
+					"match": "\\$text"
+				},
+				{
+					"name": "support.function.uniface.textexist",
+					"match": "\\$textexist"
+				},
+				{
+					"name": "support.function.uniface.totdbocc",
+					"match": "\\$totdbocc"
+				},
+				{
+					"name": "support.function.uniface.totkeys",
+					"match": "\\$totkeys"
+				},
+				{
+					"name": "support.function.uniface.totlines",
+					"match": "\\$totlines"
+				},
+				{
+					"name": "support.function.uniface.totocc",
+					"match": "\\$totocc"
+				},
+				{
+					"name": "support.function.uniface.typed",
+					"match": "\\$typed"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.ude",
+					"match": "\\$ude"
+				},
+				{
+					"name": "support.function.uniface.underline",
+					"match": "\\$underline"
+				},
+				{
+					"name": "support.function.uniface.uppercase",
+					"match": "\\$uppercase"
+				},
+				{
+					"name": "support.function.uniface.user",
+					"match": "\\$user"
+				},
+				{
+					"name": "support.function.uniface.uuid",
+					"match": "\\$uuid"
+				},
+				{
+					"name": "support.function.uniface.valrep",
+					"match": "\\$valrep"
+				},
+				{
+					"name": "support.function.uniface.valuepart",
+					"match": "\\$valuepart"
+				},
+				{
+					"name": "support.function.uniface.variation",
+					"match": "\\$variation"
+				},
+				{
+					"name": "support.function.uniface.web",
+					"match": "\\$web"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webinfo",
+					"match": "\\$webinfo"
+				},
+				{
+					"name": "support.function.uniface.webrequesttype",
+					"match": "\\$webrequesttype"
+				},
+				{
+					"name": "support.function.uniface.webresponsetype",
+					"match": "\\$webresponsetype"
+				},
+				{
+					"name": "support.function.uniface.widgetoperation",
+					"match": "\\$widgetoperation"
+				},
+				{
+					"name": "support.function.uniface.windowproperties",
+					"match": "\\$windowproperties"
 				}
 			]
 		},
