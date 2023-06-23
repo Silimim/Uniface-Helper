@@ -1,0 +1,32 @@
+{
+    "name": "uniface",
+    "displayName": "Uniface",
+    "description": "Uniface syntax highlighting",
+    "version": "1.0.0",
+    "publisher": "Simone Baptiste",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "uniface",
+            "aliases": ["Uniface", "uniface"],
+            "extensions": [".uni"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "uniface",
+            "scopeName": "source.uniface",
+            "path": "./syntaxes/uniface.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+              "language": "uniface",
+              "path": "./snippets/snippets.json"
+            }
+          ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+	"about": {
+		"prefix": "$about",
+		"body": [
+			"\\$about"
+		],
+		"description": "Returns information about the current Uniface installation, version, and platform."
+	},
+	"abs(value)": {
+		"prefix": "$abs",
+		"body": [
+			"\\$abs('$1')"
+		],
+		"description": "Return the absolute value of a numeric value."
+	},
+	"acos(value)": {
+		"prefix": "$acos",
+		"body": [
+			"\\$acos('$1')"
+		],
+		"description": "Return the arc cosine of value."
+	},
+	"applname": {
+		"prefix": "$applname",
+		"body": [
+			"\\$applname"
+		],
+		"description": "Return the name of the Application Shell."
+	},
+	"applproperties": {
+		"prefix": "$applproperties",
+		"body": [
+			"\\$applproperties"
+		],
+		"description": "Set the presentation properties of the application shell."
+	},
+	"appltitle": {
+		"prefix": "$appltitle",
+		"body": [
+			"\\$appltitle"
+		],
+		"description": "Return or set the window title bar text of a Uniface Windows application."
+	},
+	"asin(value)": {
+		"prefix": "$asin",
+		"body": [
+			"\\$asin('$1')"
+		],
+		"description": "Return the arc sine of value."
+	},
+	"atan(value)": {
+		"prefix": "$atan",
+		"body": [
+			"\\$atan('$1')"
+		],
+		"description": "Return the arc tangent of value."
+	},
+	"model name": {
+		"prefix": "$modelname",
+		"body": [
+			"\\$modelname('$1')"
+		],
+		"description": "Return the value of the Model property (the suffix of the entity name) of the specified entity"
+	},
+
+
+
+
+	"putitem(list, index, element)": {
+		"prefix": "putitem ",
+		"body": [
+			"putitem"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id(list, id, element)": {
+		"prefix": "putitem/id ",
+		"body": [
+			"putitem/id"
+		],
+		"description": "Add or replace an item in a list."
+	},
+	"putitem/id/case(list, id, element)": {
+		"prefix": "putitem/id/case",
+		"body": [
+			"putitem/id/case "
+		],
+		"description": "Add or replace an item in a list."
+	}
+}
