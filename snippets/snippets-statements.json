@@ -1,22 +1,78 @@
 {
-	"putitem(list, index, element)": {
-		"prefix": "putitem ",
+	"activate InstName.{LitOperationName({ArgumentList})}": {
+		"prefix": "activate",
 		"body": [
-			"putitem"
+			"activate '$1'.$2($3)"
+		],
+		"description": "Calls an operation on a component instance."
+	},
+	"activate/list InstName.{LitOperationName({ArgumentList})}": {
+		"prefix": "activate/list",
+		"body": [
+			"activate/list '$1'.$2($3)"
+		],
+		"description": "Calls an operation on a component instance."
+	},
+	"activate/sync InstName.{LitOperationName({ArgumentList})}": {
+		"prefix": "activate/sync",
+		"body": [
+			"activate/sync '$1'.$2($3)"
+		],
+		"description": "Calls an operation on a component instance."
+	},
+	"activate/async InstName.{LitOperationName({ArgumentList})}": {
+		"prefix": "activate/async",
+		"body": [
+			"activate/async '$1'.$2($3)"
+		],
+		"description": "Calls an operation on a component instance."
+	},
+	"activate/stateless InstName.{LitOperationName({ArgumentList})}": {
+		"prefix": "activate/stateless",
+		"body": [
+			"activate/stateless '$1'.$2($3)"
+		],
+		"description": "Calls an operation on a component instance."
+	},
+	"apexit": {
+		"prefix": "apexit",
+		"body": [
+			"apexit"
+		],
+		"description": "Ends the application session immediately."
+	},
+	"apstart": {
+		"prefix": "apstart",
+		"body": [
+			"apstart"
+		],
+		"description": "Pass control of the application to the component manager."
+	},
+	"addmonths Months, Date, {ReferenceDate}": {
+		"prefix": "addmonths",
+		"body": [
+			"addmonths '$1','$2','$3'"
+		],
+		"description": "Adds the specified number of months to the date, storing the result of the calculation in $result."
+	},
+	"putitem list, index, element": {
+		"prefix": "putitem",
+		"body": [
+			"putitem '$1', '$2', '$3'"
 		],
 		"description": "Add or replace an item in a list."
 	},
-	"putitem/id(list, id, element)": {
-		"prefix": "putitem/id ",
+	"putitem/id list, id, element": {
+		"prefix": "putitem/id",
 		"body": [
-			"putitem/id"
+			"putitem/id '$1', '$2', '$3'"
 		],
 		"description": "Add or replace an item in a list."
 	},
-	"putitem/id/case(list, id, element)": {
+	"putitem/id/case list, id, element": {
 		"prefix": "putitem/id/case",
 		"body": [
-			"putitem/id/case "
+			"putitem/id/case '$1', '$2', '$3'"
 		],
 		"description": "Add or replace an item in a list."
 	}
