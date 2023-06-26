@@ -276,17 +276,15 @@
 				},
 				{
 					"name": "support.function.uniface.e",
-					"match": "\\$e"
+					"match": "^\\$e$"
 				},
 				{
 					"name": "support.function.uniface.editmode",
-					"begin": "\\$",
-					"end": "editmode",
-					"match": "\\$editmode"
+					"match": "^\\$editmode$"
 				},
 				{
 					"name": "support.function.uniface.empty",
-					"match": "\\$empty"
+					"match": "^\\$empty$"
 				},
 				{
 					"name": "support.function.uniface.encode",
