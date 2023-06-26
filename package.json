@@ -2,7 +2,7 @@
     "name": "uniface",
     "displayName": "Uniface",
     "description": "Uniface syntax highlighting",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "Simone Baptiste",
     "icon": "./resources/uniface-extension-logo.png",
     "repository": {
@@ -16,21 +16,30 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "uniface",
-            "aliases": ["Uniface", "uniface"],
-            "extensions": [".uni"],
-            "icon": {
-                "light": "./resources/uniface-icon-logo.png",
-                "dark": "./resources/uniface-icon-logo.png"
-            },
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "uniface",
-            "scopeName": "source.uniface",
-            "path": "./syntaxes/uniface.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "uniface",
+                "aliases": [
+                    "Uniface",
+                    "uniface"
+                ],
+                "extensions": [
+                    ".uni"
+                ],
+                "icon": {
+                    "light": "./resources/uniface-icon-logo.png",
+                    "dark": "./resources/uniface-icon-logo.png"
+                },
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "uniface",
+                "scopeName": "source.uniface",
+                "path": "./syntaxes/uniface.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "uniface",
