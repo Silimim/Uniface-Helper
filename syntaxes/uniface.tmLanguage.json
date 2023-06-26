@@ -96,983 +96,875 @@
 			"patterns": [
 				{
 					"name": "support.function.uniface.about",
-					"match": "^\\$about$"
+					"match": "\\$about\\b"
 				},
 				{
 					"name": "support.function.uniface.abs",
-					"match": "^\\$abs$"
+					"match": "\\$abs\\b"
 				},
 				{
 					"name": "support.function.uniface.acos",
-					"match": "^\\$acos$"
+					"match": "\\$acos\\b"
 				},
 				{
 					"name": "support.function.uniface.applname",
-					"match": "^\\$applname$"
+					"match": "\\$applname\\b"
 				},
 				{
 					"name": "support.function.uniface.applproperties",
-					"match": "^\\$applproperties$"
+					"match": "\\$applproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.appltitle",
-					"match": "^\\$appltitle$"
+					"match": "\\$appltitle\\b"
 				},
 				{
 					"name": "support.function.uniface.asin",
-					"match": "^\\$asin$"
+					"match": "\\$asin\\b"
 				},
 				{
 					"name": "support.function.uniface.atan",
-					"match": "^\\$atan$"
+					"match": "\\$atan\\b"
 				},
 				{
 					"name": "support.function.uniface.batch",
-					"match": "^\\$batch$"
+					"match": "\\$batch\\b"
 				},
 				{
 					"name": "support.function.uniface.bold",
-					"match": "^\\$bold$"
+					"match": "\\$bold\\b"
 				},
 				{
 					"name": "support.function.uniface.callup",
-					"match": "^\\$callup$"
+					"match": "\\$callup\\b"
 				},
 				{
 					"name": "support.function.uniface.char",
-					"match": "^\\$char$"
+					"match": "\\$char\\b"
 				},
 				{
 					"name": "support.function.uniface.check",
-					"match": "^\\$check$"
+					"match": "\\$check\\b"
 				},
 				{
 					"name": "support.function.uniface.clearselection",
-					"match": "^\\$clearselection$"
+					"match": "\\$clearselection\\b"
 				},
 				{
 					"name": "support.function.uniface.clock",
-					"match": "^\\$clock$"
+					"match": "\\$clock\\b"
 				},
 				{
 					"name": "support.function.uniface.collhandle",
-					"match": "^\\$collhandle$"
+					"match": "\\$collhandle\\b"
 				},
 				{
 					"name": "support.function.uniface.columnsyntax",
-					"match": "^\\$columnsyntax$"
+					"match": "\\$columnsyntax\\b"
 				},
 				{
 					"name": "support.function.uniface.componentinfo",
-					"match": "^\\$componentinfo$"
+					"match": "\\$componentinfo\\b"
 				},
 				{
 					"name": "support.function.uniface.componentname",
-					"match": "^\\$componentname$"
+					"match": "\\$componentname\\b"
 				},
 				{
 					"name": "support.function.uniface.componenttype",
-					"match": "^\\$componenttype$"
+					"match": "\\$componenttype\\b"
 				},
 				{
 					"name": "support.function.uniface.concat",
-					"match": "^\\$concat$"
+					"match": "\\$concat\\b"
 				},
 				{
 					"name": "support.function.uniface.condition",
-					"match": "^\\$condition$"
+					"match": "\\$condition\\b"
 				},
 				{
 					"name": "support.function.uniface.cos",
-					"match": "^\\$cos$"
+					"match": "\\$cos\\b"
 				},
 				{
 					"name": "support.function.uniface.CurEntProperties",
-					"match": "^\\$CurEntProperties$"
+					"match": "\\$CurEntProperties\\b"
 				},
 				{
 					"name": "support.function.uniface.curhits",
-					"match": "^\\$curhits$"
+					"match": "\\$curhits\\b"
 				},
 				{
 					"name": "support.function.uniface.curkey",
-					"match": "^\\$curkey$"
+					"match": "\\$curkey\\b"
 				},
 				{
 					"name": "support.function.uniface.curocc",
-					"match": "^\\$curocc$"
+					"match": "\\$curocc\\b"
 				},
 				{
 					"name": "support.function.uniface.curoccvideo",
-					"match": "^\\$curoccvideo$"
+					"match": "\\$curoccvideo\\b"
 				},
 				{
 					"name": "support.function.uniface.curline",
-					"match": "^\\$curline$"
+					"match": "\\$curline\\b"
 				},
 				{
 					"name": "support.function.uniface.curword",
-					"match": "^\\$curword$"
+					"match": "\\$curword\\b"
 				},
 				{
 					"name": "support.function.uniface.dataerrorcontext",
-					"match": "^\\$dataerrorcontext$"
+					"match": "\\$dataerrorcontext\\b"
 				},
 				{
 					"name": "support.function.uniface.date",
-					"match": "^\\$date$"
+					"match": "\\$date\\b"
 				},
 				{
 					"name": "support.function.uniface.datim",
-					"match": "^\\$datim$"
+					"match": "\\$datim\\b"
 				},
 				{
 					"name": "support.function.uniface.dberror",
-					"match": "^\\$dberror$"
+					"match": "\\$dberror\\b"
 				},
 				{
 					"name": "support.function.uniface.dberrortext",
-					"match": "^\\$dberrortext$"
+					"match": "\\$dberrortext\\b"
 				},
 				{
 					"name": "support.function.uniface.dbocc",
-					"match": "^\\$dbocc$"
+					"match": "\\$dbocc\\b"
 				},
 				{
 					"name": "support.function.uniface.decode",
-					"match": "^\\$decode$"
+					"match": "\\$decode\\b"
 				},
 				{
 					"name": "support.function.uniface.decode",
-					"match": "^\\$decode$"
+					"match": "\\$decode\\b"
 				},
 				{
 					"name": "support.function.uniface.direction",
-					"match": "^\\$direction$"
+					"match": "\\$direction\\b"
 				},
 				{
 					"name": "support.function.uniface.disable",
-					"match": "^\\$disable$"
+					"match": "\\$disable\\b"
 				},
 				{
 					"name": "support.function.uniface.display",
-					"match": "^\\$display$"
+					"match": "\\$display\\b"
 				},
 				{
 					"name": "support.function.uniface.def_charset",
-					"match": "^\\$def_charset$"
+					"match": "\\$def_charset\\b"
 				},
 				{
 					"name": "support.function.uniface.detachedinstances",
-					"match": "^\\$detachedinstances$"
+					"match": "\\$detachedinstances\\b"
 				},
 				{
 					"name": "support.function.uniface.dirlist",
-					"match": "^\\$dirlist$"
+					"match": "\\$dirlist\\b"
 				},
 				{
 					"name": "support.function.uniface.displaylength",
-					"match": "^\\$displaylength$"
+					"match": "\\$displaylength\\b"
 				},
 				{
 					"name": "support.function.uniface.e",
-					"match": "^\\$e$"
+					"match": "\\$e\\b"
 				},
 				{
 					"name": "support.function.uniface.editmode",
-					"match": "^\\$editmode$"
+					"match": "\\$editmode\\b"
 				},
 				{
 					"name": "support.function.uniface.empty",
-					"match": "^\\$empty$"
+					"match": "\\$empty\\b"
 				},
 				{
 					"name": "support.function.uniface.encode",
-					"match": "^\\$encode$"
+					"match": "\\$encode\\b"
 				},
 				{
 					"name": "support.function.uniface.entinfo",
-					"match": "^\\$entinfo$"
+					"match": "\\$entinfo\\b"
 				},
 				{
 					"name": "support.function.uniface.entname",
-					"match": "^\\$entname$"
+					"match": "\\$entname\\b"
 				},
 				{
 					"name": "support.function.uniface.error",
-					"match": "^\\$error$"
+					"match": "\\$error\\b"
 				},
 				{
 					"name": "support.function.uniface.equalStructRefs",
-					"match": "^\\$equalStructRefs$"
+					"match": "\\$equalStructRefs\\b"
 				},
 				{
 					"name": "support.function.uniface.exp",
-					"match": "^\\$exp$"
+					"match": "\\$exp\\b"
 				},
 				{
 					"name": "support.function.uniface.displaylength",
-					"match": "^\\$displaylength$"
+					"match": "\\$displaylength\\b"
 				},
 				{
 					"name": "support.function.uniface.expression",
-					"match": "^\\$expression$"
+					"match": "\\$expression\\b"
 				},
 				{
 					"name": "support.function.uniface.fact",
-					"match": "^\\$fact$"
+					"match": "\\$fact\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldcheck",
-					"match": "^\\$fieldcheck$"
+					"match": "\\$fieldcheck\\b"
 				},
 				{
 					"name": "support.function.uniface.fielddbmod",
-					"match": "^\\$fielddbmod$"
+					"match": "\\$fielddbmod\\b"
 				},
 				{
 					"name": "support.function.uniface.fielddbvalue",
-					"match": "^\\$fielddbvalue$"
+					"match": "\\$fielddbvalue\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldendmod",
-					"match": "^\\$fieldendmod$"
+					"match": "\\$fieldendmod\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldhandle",
-					"match": "^\\$fieldhandle$"
+					"match": "\\$fieldhandle\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldindb",
-					"match": "^\\$fieldindb$"
+					"match": "\\$fieldindb\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldinfo",
-					"match": "^\\$fieldinfo$"
+					"match": "\\$fieldinfo\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldmod",
-					"match": "^\\$fieldmod$"
+					"match": "\\$fieldmod\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldname",
-					"match": "^\\$fieldname$"
+					"match": "\\$fieldname\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldprofile",
-					"match": "^\\$fieldprofile$"
+					"match": "\\$fieldprofile\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldproperties",
-					"match": "^\\$fieldproperties$"
+					"match": "\\$fieldproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldsyntax",
-					"match": "^\\$fieldsyntax$"
+					"match": "\\$fieldsyntax\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldvalrep",
-					"match": "^\\$fieldvalrep$"
+					"match": "\\$fieldvalrep\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldvalidation",
-					"match": "^\\$fieldvalidation$"
+					"match": "\\$fieldvalidation\\b"
 				},
 				{
 					"name": "support.function.uniface.fieldvideo ",
-					"match": "^\\$fieldvideo $"
+					"match": "\\$fieldvideo \\b"
 				},
 				{
 					"name": "support.function.uniface.fileexists",
-					"match": "^\\$fileexists$"
+					"match": "\\$fileexists\\b"
 				},
 				{
 					"name": "support.function.uniface.fileproperties",
-					"match": "^\\$fileproperties$"
+					"match": "\\$fileproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.foreign",
-					"match": "^\\$foreign$"
+					"match": "\\$foreign\\b"
 				},
 				{
 					"name": "support.function.uniface.format",
-					"match": "^\\$format$"
+					"match": "\\$format\\b"
 				},
 				{
 					"name": "support.function.uniface.formfocus",
-					"match": "^\\$formfocus$"
+					"match": "\\$formfocus\\b"
 				},
 				{
 					"name": "support.function.uniface.formmodality",
-					"match": "^\\$formmodality$"
+					"match": "\\$formmodality\\b"
 				},
 				{
 					"name": "support.function.uniface.formtitle",
-					"match": "^\\$formtitle$"
+					"match": "\\$formtitle\\b"
 				},
 				{
 					"name": "support.function.uniface.frac",
-					"match": "^\\$frac$"
+					"match": "\\$frac\\b"
 				},
 				{
 					"name": "support.function.uniface.framedepth",
-					"match": "^\\$framedepth$"
+					"match": "\\$framedepth\\b"
 				},
 				{
 					"name": "support.function.uniface.gui",
-					"match": "^\\$gui$"
+					"match": "\\$gui\\b"
 				},
 				{
 					"name": "support.function.uniface.hide",
-					"match": "^\\$hide$"
+					"match": "\\$hide\\b"
 				},
 				{
 					"name": "support.function.uniface.hits",
-					"match": "^\\$hits$"
+					"match": "\\$hits\\b"
 				},
 				{
 					"name": "support.function.uniface.idpart",
-					"match": "^\\$idpart$"
+					"match": "\\$idpart\\b"
 				},
 				{
 					"name": "support.function.uniface.inlinemenu",
-					"match": "^\\$inlinemenu$"
+					"match": "\\$inlinemenu\\b"
 				},
 				{
 					"name": "support.function.uniface.instancechildren",
-					"match": "^\\$instancechildren$"
+					"match": "\\$instancechildren\\b"
 				},
 				{
 					"name": "support.function.uniface.instancedb",
-					"match": "^\\$instancedb$"
+					"match": "\\$instancedb\\b"
 				},
 				{
 					"name": "support.function.uniface.instancedbmod",
-					"match": "^\\$instancedbmod$"
+					"match": "\\$instancedbmod\\b"
 				},
 				{
 					"name": "support.function.uniface.instancehandle",
-					"match": "^\\$instancehandle$"
+					"match": "\\$instancehandle\\b"
 				},
 				{
 					"name": "support.function.uniface.instancelayout",
-					"match": "^\\$instancelayout$"
+					"match": "\\$instancelayout\\b"
 				},
 				{
 					"name": "support.function.uniface.instancemod",
-					"match": "^\\$instancemod$"
+					"match": "\\$instancemod\\b"
 				},
 				{
 					"name": "support.function.uniface.instancename",
-					"match": "^\\$instancename$"
+					"match": "\\$instancename\\b"
 				},
 				{
 					"name": "support.function.uniface.instanceparent",
-					"match": "^\\$instanceparent$"
+					"match": "\\$instanceparent\\b"
 				},
 				{
 					"name": "support.function.uniface.instancepath",
-					"match": "^\\$instancepath$"
+					"match": "\\$instancepath\\b"
 				},
 				{
 					"name": "support.function.uniface.instances",
-					"match": "^\\$instances$"
+					"match": "\\$instances\\b"
 				},
 				{
 					"name": "support.function.uniface.instancevalidation",
-					"match": "^\\$instancevalidation$"
+					"match": "\\$instancevalidation\\b"
 				},
 				{
 					"name": "support.function.uniface.int",
-					"match": "^\\$int$"
+					"match": "\\$int\\b"
 				},
 				{
 					"name": "support.function.uniface.interactive",
-					"match": "^\\$interactive$"
+					"match": "\\$interactive\\b"
 				},
 				{
 					"name": "support.function.uniface.ioprint",
-					"match": "^\\$ioprint$"
+					"match": "\\$ioprint\\b"
 				},
 				{
 					"name": "support.function.uniface.italic",
-					"match": "^\\$italic$"
+					"match": "\\$italic\\b"
 				},
 				{
 					"name": "support.function.uniface.item",
-					"match": "^\\$item$"
+					"match": "\\$item\\b"
 				},
 				{
 					"name": "support.function.uniface.itemcount",
-					"match": "^\\$itemcount$"
+					"match": "\\$itemcount\\b"
 				},
 				{
 					"name": "support.function.uniface.itemnr",
-					"match": "^\\$itemnr$"
+					"match": "\\$itemnr\\b"
 				},
 				{
 					"name": "support.function.uniface.keyboard",
-					"match": "^\\$keyboard$"
+					"match": "\\$keyboard\\b"
 				},
 				{
 					"name": "support.function.uniface.keycheck",
-					"match": "^\\$keycheck$"
+					"match": "\\$keycheck\\b"
 				},
 				{
 					"name": "support.function.uniface.keyfields",
-					"match": "^\\$keyfields$"
+					"match": "\\$keyfields\\b"
 				},
 				{
 					"name": "support.function.uniface.keymod",
-					"match": "^\\$keymod$"
+					"match": "\\$keymod\\b"
 				},
 				{
 					"name": "support.function.uniface.keytype",
-					"match": "^\\$keytype$"
+					"match": "\\$keytype\\b"
 				},
 				{
 					"name": "support.function.uniface.keyvalidation",
-					"match": "^\\$keyvalidation$"
+					"match": "\\$keyvalidation\\b"
 				},
 				{
 					"name": "support.function.uniface.labelproperties",
-					"match": "^\\$labelproperties$"
+					"match": "\\$labelproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.language",
-					"match": "^\\$language$"
+					"match": "\\$language\\b"
 				},
 				{
 					"name": "support.function.uniface.lines",
-					"match": "^\\$lines$"
+					"match": "\\$lines\\b"
 				},
 				{
 					"name": "support.function.uniface.ldir",
-					"match": "^\\$ldir$"
+					"match": "\\$ldir\\b"
 				},
 				{
 					"name": "support.function.uniface.ldirlist",
-					"match": "^\\$ldirlist$"
+					"match": "\\$ldirlist\\b"
 				},
 				{
 					"name": "support.function.uniface.length",
-					"match": "^\\$length$"
+					"match": "\\$length\\b"
 				},
 				{
 					"name": "support.function.uniface.lfileexists",
-					"match": "^\\$lfileexists$"
+					"match": "\\$lfileexists\\b"
 				},
 				{
 					"name": "support.function.uniface.lfileproperties",
-					"match": "^\\$lfileproperties$"
+					"match": "\\$lfileproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.log",
-					"match": "^\\$log$"
+					"match": "\\$log\\b"
 				},
 				{
 					"name": "support.function.uniface.log10",
-					"match": "^\\$log10$"
+					"match": "\\$log10\\b"
 				},
 				{
 					"name": "support.function.uniface.logical",
-					"match": "^\\$logical$"
+					"match": "\\$logical\\b"
 				},
 				{
 					"name": "support.function.uniface.lowercase",
-					"match": "^\\$lowercase$"
+					"match": "\\$lowercase\\b"
 				},
 				{
 					"name": "support.function.uniface.ltrim ",
-					"match": "^\\$ltrim $"
+					"match": "\\$ltrim \\b"
 				},
 				{
 					"name": "support.function.uniface.modelname",
-					"match": "^\\$modelname$"
+					"match": "\\$modelname\\b"
 				},
 				{
 					"name": "support.function.uniface.msgdata",
-					"match": "^\\$msgdata$"
+					"match": "\\$msgdata\\b"
 				},
 				{
 					"name": "support.function.uniface.msgdst",
-					"match": "^\\$msgdst$"
+					"match": "\\$msgdst\\b"
 				},
 				{
 					"name": "support.function.uniface.msgid",
-					"match": "^\\$msgid$"
+					"match": "\\$msgid\\b"
 				},
 				{
 					"name": "support.function.uniface.msginfo",
-					"match": "^\\$msginfo$"
+					"match": "\\$msginfo\\b"
 				},
 				{
 					"name": "support.function.uniface.msgsrc",
-					"match": "^\\$msgsrc$"
+					"match": "\\$msgsrc\\b"
 				},
 				{
 					"name": "support.function.uniface.newstruct",
-					"match": "^\\$newstruct$"
+					"match": "\\$newstruct\\b"
 				},
 				{
 					"name": "support.function.uniface.next",
-					"match": "^\\$next$"
+					"match": "\\$next\\b"
 				},
 				{
 					"name": "support.function.uniface.nlscase",
-					"match": "^\\$nlscase$"
+					"match": "\\$nlscase\\b"
 				},
 				{
 					"name": "support.function.uniface.nlsformat",
-					"match": "^\\$nlsformat$"
+					"match": "\\$nlsformat\\b"
 				},
 				{
 					"name": "support.function.uniface.nlsinternaltime",
-					"match": "^\\$nlsinternaltime$"
+					"match": "\\$nlsinternaltime\\b"
 				},
 				{
 					"name": "support.function.uniface.nlslocale",
-					"match": "^\\$nlslocale$"
+					"match": "\\$nlslocale\\b"
 				},
 				{
 					"name": "support.function.uniface.nlslocalelist",
-					"match": "^\\$nlslocalelist$"
+					"match": "\\$nlslocalelist\\b"
 				},
 				{
 					"name": "support.function.uniface.nlssortorder",
-					"match": "^\\$nlssortorder$"
+					"match": "\\$nlssortorder\\b"
 				},
 				{
 					"name": "support.function.uniface.nlstimezone",
-					"match": "^\\$nlstimezone$"
+					"match": "\\$nlstimezone\\b"
 				},
 				{
 					"name": "support.function.uniface.nlstimezonelist",
-					"match": "^\\$nlstimezonelist$"
+					"match": "\\$nlstimezonelist\\b"
 				},
 				{
 					"name": "support.function.uniface.nmforms",
-					"match": "^\\$nmforms$"
+					"match": "\\$nmforms\\b"
 				},
 				{
 					"name": "support.function.uniface.number",
-					"match": "^\\$number$"
+					"match": "\\$number\\b"
 				},
 				{
 					"name": "support.function.uniface.occcheck",
-					"match": "^\\$occcheck$"
+					"match": "\\$occcheck\\b"
 				},
 				{
 					"name": "support.function.uniface.occcrc",
-					"match": "^\\$occcrc$"
+					"match": "\\$occcrc\\b"
 				},
 				{
 					"name": "support.function.uniface.occdbmod",
-					"match": "^\\$occdbmod$"
+					"match": "\\$occdbmod\\b"
 				},
 				{
 					"name": "support.function.uniface.occdel",
-					"match": "^\\$occdel$"
+					"match": "\\$occdel\\b"
 				},
 				{
 					"name": "support.function.uniface.occdepth",
-					"match": "^\\$occdepth$"
+					"match": "\\$occdepth\\b"
 				},
 				{
 					"name": "support.function.uniface.occhandle",
-					"match": "^\\$occhandle$"
+					"match": "\\$occhandle\\b"
 				},
 				{
 					"name": "support.function.uniface.occmod",
-					"match": "^\\$occmod$"
+					"match": "\\$occmod\\b"
 				},
 				{
 					"name": "support.function.uniface.occproperties",
-					"match": "^\\$occproperties$"
+					"match": "\\$occproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.occstatus",
-					"match": "^\\$occstatus$"
+					"match": "\\$occstatus\\b"
 				},
 				{
 					"name": "support.function.uniface.occvalidation",
-					"match": "^\\$occvalidation$"
+					"match": "\\$occvalidation\\b"
 				},
 				{
 					"name": "support.function.uniface.ocxhandle",
-					"match": "^\\$ocxhandle$"
+					"match": "\\$ocxhandle\\b"
 				},
 				{
 					"name": "support.function.uniface.oprsys",
-					"match": "^\\$oprsys$"
+					"match": "\\$oprsys\\b"
 				},
 				{
 					"name": "support.function.uniface.page",
-					"match": "^\\$page$"
+					"match": "\\$page\\b"
 				},
 				{
 					"name": "support.function.uniface.paintedfieldproperties",
-					"match": "^\\$paintedfieldproperties$"
+					"match": "\\$paintedfieldproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.paintedocc",
-					"match": "^\\$paintedocc$"
+					"match": "\\$paintedocc\\b"
 				},
 				{
 					"name": "support.function.uniface.password",
-					"match": "^\\$password$"
+					"match": "\\$password\\b"
 				},
 				{
 					"name": "support.function.uniface.pi",
-					"match": "^\\$pi$"
+					"match": "\\$pi\\b"
 				},
 				{
 					"name": "support.function.uniface.power",
-					"match": "^\\$power$"
+					"match": "\\$power\\b"
 				},
 				{
 					"name": "support.function.uniface.previous",
-					"match": "^\\$previous$"
+					"match": "\\$previous\\b"
 				},
 				{
 					"name": "support.function.uniface.printing",
-					"match": "^\\$printing$"
+					"match": "\\$printing\\b"
 				},
 				{
 					"name": "support.function.uniface.proc_profiling",
-					"match": "^\\$proc_profiling$"
+					"match": "\\$proc_profiling\\b"
 				},
 				{
 					"name": "support.function.uniface.proc_tracing",
-					"match": "^\\$proc_tracing$"
+					"match": "\\$proc_tracing\\b"
 				},
 				{
 					"name": "support.function.uniface.proc_tracing_addition",
-					"match": "^\\$proc_tracing_addition$"
+					"match": "\\$proc_tracing_addition\\b"
 				},
 				{
 					"name": "support.function.uniface.processinfo",
-					"match": "^\\$processinfo$"
+					"match": "\\$processinfo\\b"
 				},
 				{
 					"name": "support.function.uniface.procerror",
-					"match": "^\\$procerror$"
+					"match": "\\$procerror\\b"
 				},
 				{
 					"name": "support.function.uniface.procerrorcontext",
-					"match": "^\\$procerrorcontext$"
+					"match": "\\$procerrorcontext\\b"
 				},
 				{
 					"name": "support.function.uniface.procReturnContext",
-					"match": "^\\$procReturnContext$"
+					"match": "\\$procReturnContext\\b"
 				},
 				{
 					"name": "support.function.uniface.properties",
-					"match": "^\\$properties$"
+					"match": "\\$properties\\b"
 				},
 				{
 					"name": "support.function.uniface.putmess",
-					"match": "^\\$putmess$"
+					"match": "\\$putmess\\b"
 				},
 				{
 					"name": "support.function.uniface.relation",
-					"match": "^\\$relation$"
+					"match": "\\$relation\\b"
 				},
 				{
 					"name": "support.function.uniface.replace",
-					"match": "^\\$replace$"
+					"match": "\\$replace\\b"
 				},
 				{
 					"name": "support.function.uniface.result",
-					"match": "^\\$result$"
+					"match": "\\$result\\b"
 				},
 				{
 					"name": "support.function.uniface.rettype",
-					"match": "^\\$rettype$"
+					"match": "\\$rettype\\b"
 				},
 				{
 					"name": "support.function.uniface.rscan",
-					"match": "^\\$rscan$"
+					"match": "\\$rscan\\b"
 				},
 				{
 					"name": "support.function.uniface.rtrim",
-					"match": "^\\$rtrim$"
+					"match": "\\$rtrim\\b"
 				},
 				{
 					"name": "support.function.uniface.scan",
-					"match": "^\\$scan$"
+					"match": "\\$scan\\b"
 				},
 				{
 					"name": "support.function.uniface.selblk",
-					"match": "^\\$selblk$"
+					"match": "\\$selblk\\b"
 				},
 				{
 					"name": "support.function.uniface.selected",
-					"match": "^\\$selected$"
+					"match": "\\$selected\\b"
 				},
 				{
 					"name": "support.function.uniface.selectedoccs",
-					"match": "^\\$selectedoccs$"
+					"match": "\\$selectedoccs\\b"
 				},
 				{
 					"name": "support.function.uniface.selectlist",
-					"match": "^\\$selectlist$"
+					"match": "\\$selectlist\\b"
 				},
 				{
 					"name": "support.function.uniface.setting",
-					"match": "^\\$setting$"
+					"match": "\\$setting\\b"
 				},
 				{
 					"name": "support.function.uniface.setting",
-					"match": "^\\$setting$"
+					"match": "\\$setting\\b"
 				},
 				{
 					"name": "support.function.uniface.signatureproperties",
-					"match": "^\\$signatureproperties$"
+					"match": "\\$signatureproperties\\b"
 				},
 				{
 					"name": "support.function.uniface.sin",
-					"match": "^\\$sin$"
+					"match": "\\$sin\\b"
 				},
 				{
 					"name": "support.function.uniface.sortlist",
-					"match": "^\\$sortlist$"
+					"match": "\\$sortlist\\b"
 				},
 				{
 					"name": "support.function.uniface.sortlistid",
-					"match": "^\\$sortlistid$"
+					"match": "\\$sortlistid\\b"
 				},
 				{
 					"name": "support.function.uniface.split",
-					"match": "^\\$split$"
+					"match": "\\$split\\b"
 				},
 				{
 					"name": "support.function.uniface.sqrt",
-					"match": "^\\$sqrt$"
+					"match": "\\$sqrt\\b"
 				},
 				{
 					"name": "support.function.uniface.status",
-					"match": "^\\$status$"
+					"match": "\\$status\\b"
 				},
 				{
 					"name": "support.function.uniface.storetype",
-					"match": "^\\$storetype$"
+					"match": "\\$storetype\\b"
 				},
 				{
 					"name": "support.function.uniface.string",
-					"match": "^\\$string$"
+					"match": "\\$string\\b"
 				},
 				{
 					"name": "support.function.uniface.stripattributes",
-					"match": "^\\$stripattributes$"
+					"match": "\\$stripattributes\\b"
 				},
 				{
 					"name": "support.function.uniface.subsetreturn",
-					"match": "^\\$subsetreturn$"
+					"match": "\\$subsetreturn\\b"
 				},
 				{
 					"name": "support.function.uniface.syntax",
-					"match": "^\\$syntax$"
+					"match": "\\$syntax\\b"
 				},
 				{
 					"name": "support.function.uniface.sys_charset",
-					"match": "^\\$sys_charset$"
+					"match": "\\$sys_charset\\b"
 				},
 				{
 					"name": "support.function.uniface.tan",
-					"match": "^\\$tan$"
+					"match": "\\$tan\\b"
 				},
 				{
 					"name": "support.function.uniface.text",
-					"match": "^\\$text$"
+					"match": "\\$text\\b"
 				},
 				{
 					"name": "support.function.uniface.textexist",
-					"match": "^\\$textexist$"
+					"match": "\\$textexist\\b"
 				},
 				{
 					"name": "support.function.uniface.totdbocc",
-					"match": "^\\$totdbocc$"
+					"match": "\\$totdbocc\\b"
 				},
 				{
 					"name": "support.function.uniface.totkeys",
-					"match": "^\\$totkeys$"
+					"match": "\\$totkeys\\b"
 				},
 				{
 					"name": "support.function.uniface.totlines",
-					"match": "^\\$totlines$"
+					"match": "\\$totlines\\b"
 				},
 				{
 					"name": "support.function.uniface.totocc",
-					"match": "^\\$totocc$"
+					"match": "\\$totocc\\b"
 				},
 				{
 					"name": "support.function.uniface.typed",
-					"match": "^\\$typed$"
+					"match": "\\$typed\\b"
 				},
 				{
 					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
-				},
-				{
-					"name": "support.function.uniface.ude",
-					"match": "^\\$ude$"
+					"match": "\\$ude\\b"
 				},
 				{
 					"name": "support.function.uniface.underline",
-					"match": "^\\$underline$"
+					"match": "\\$underline\\b"
 				},
 				{
 					"name": "support.function.uniface.uppercase",
-					"match": "^\\$uppercase$"
+					"match": "\\$uppercase\\b"
 				},
 				{
 					"name": "support.function.uniface.user",
-					"match": "^\\$user$"
+					"match": "\\$user\\b"
 				},
 				{
 					"name": "support.function.uniface.uuid",
-					"match": "^\\$uuid$"
+					"match": "\\$uuid\\b"
 				},
 				{
 					"name": "support.function.uniface.valrep",
-					"match": "^\\$valrep$"
+					"match": "\\$valrep\\b"
 				},
 				{
 					"name": "support.function.uniface.valuepart",
-					"match": "^\\$valuepart$"
+					"match": "\\$valuepart\\b"
 				},
 				{
 					"name": "support.function.uniface.variation",
-					"match": "^\\$variation$"
+					"match": "\\$variation\\b"
 				},
 				{
 					"name": "support.function.uniface.web",
-					"match": "^\\$web$"
+					"match": "\\$web\\b"
 				},
 				{
 					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
-				},
-				{
-					"name": "support.function.uniface.webinfo",
-					"match": "^\\$webinfo$"
+					"match": "\\$webinfo\\b"
 				},
 				{
 					"name": "support.function.uniface.webrequesttype",
-					"match": "^\\$webrequesttype$"
+					"match": "\\$webrequesttype\\b"
 				},
 				{
 					"name": "support.function.uniface.webresponsetype",
-					"match": "^\\$webresponsetype$"
+					"match": "\\$webresponsetype\\b"
 				},
 				{
 					"name": "support.function.uniface.widgetoperation",
-					"match": "^\\$widgetoperation$"
+					"match": "\\$widgetoperation\\b"
 				},
 				{
 					"name": "support.function.uniface.windowproperties",
-					"match": "^\\$windowproperties$"
+					"match": "\\$windowproperties\\b"
 				}
 			]
 		},
