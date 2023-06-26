@@ -96,17 +96,6 @@
 			"patterns": [
 				{
 					"name": "support.function.uniface.about",
-					"captures": {
-						"1": {
-							"name": "entity.name.function.uniface.about",
-							"patterns": [
-								{
-									"name": "variable.function.uniface.about",
-									"match": "\\$about"
-								}
-							]
-						}
-					},
 					"match": "\\$about"
 				},
 				{
@@ -291,6 +280,8 @@
 				},
 				{
 					"name": "support.function.uniface.editmode",
+					"begin": "\\$",
+					"end": "editmode",
 					"match": "\\$editmode"
 				},
 				{

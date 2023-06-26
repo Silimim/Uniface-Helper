@@ -5,6 +5,10 @@
     "version": "1.1.0",
     "publisher": "Simone Baptiste",
     "icon": "./resources/uniface-extension-logo.png",
+    "author": {
+        "name": "Simone Baptiste",
+        "email": "baptistesimone19@gmail.com"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Silimim/UnifaceHighlight"
