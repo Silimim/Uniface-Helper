@@ -2,7 +2,7 @@
     "name": "uniface",
     "displayName": "Uniface",
     "description": "Uniface syntax highlighting",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "Simone Baptiste",
     "icon": "./resources/uniface-extension-logo.png",
     "author": {
