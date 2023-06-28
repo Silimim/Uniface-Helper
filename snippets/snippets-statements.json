@@ -34,6 +34,13 @@
 		],
 		"description": "Calls an operation on a component instance."
 	},
+	"addmonths Months, Date, {ReferenceDate}": {
+		"prefix": "addmonths",
+		"body": [
+			"addmonths '$1','$2','$3'"
+		],
+		"description": "Adds the specified number of months to the date, storing the result of the calculation in $result."
+	},
 	"apexit": {
 		"prefix": "apexit",
 		"body": [
@@ -48,12 +55,61 @@
 		],
 		"description": "Pass control of the application to the component manager."
 	},
-	"addmonths Months, Date, {ReferenceDate}": {
-		"prefix": "addmonths",
+	"askmess 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess",
 		"body": [
-			"addmonths '$1','$2','$3'"
+			"askmess '$1', '$2'"
 		],
-		"description": "Adds the specified number of months to the date, storing the result of the calculation in $result."
+		"description": "Display a message and wait for the user's response."
+	},
+	"askmess/nobeep 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess/nobeep",
+		"body": [
+			"askmess/nobeep '$1', '$2'"
+		],
+		"description": "Display a message and wait for the user's response."
+	},
+	"askmess/question 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess/question",
+		"body": [
+			"askmess/question '$1', '$2'"
+		],
+		"description": "Display a message and wait for the user's response."
+	},
+	"askmess/info 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess/info",
+		"body": [
+			"askmess/info '$1', '$2'"
+		],
+		"description": "Display a message and wait for the user's response."
+	},
+	"askmess/warning 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess/warning",
+		"body": [
+			"askmess/warning '$1', '$2'"
+		],
+		"description": "Display a message and wait for the user's response."
+	},
+	"askmess/error 'MessageText{~MessageTitle}', {Replies}": {
+		"prefix": "askmess/error",
+		"body": [
+			"askmess/error '$1', '$2'"
+		],
+		"description": "Display a message and wait for the user's response."
+	},
+	"blockdata": {
+		"prefix": "blockdata",
+		"body": [
+			"blockdata"
+		],
+		"description": "Defines a constant block of text."
+	},
+	"call {Library::}LitFunctionName {(ArgumentList)}": {
+		"prefix": "call",
+		"body": [
+			"call $1"
+		],
+		"description": "Execute the specified function or global ProcScript."
 	},
 	"putitem list, index, element": {
 		"prefix": "putitem",

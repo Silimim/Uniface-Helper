@@ -5,6 +5,7 @@
     "version": "1.2.0",
     "publisher": "Simone Baptiste",
     "icon": "./resources/uniface-extension-logo.png",
+    "readme": "./README.md",
     "author": {
         "name": "Simone Baptiste",
         "email": "baptistesimone19@gmail.com"
