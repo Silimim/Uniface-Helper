@@ -1,0 +1,27 @@
+{
+	"name": "uniface-server",
+	"version": "1.0.0",
+	"description": "Uniface Helper server-side extension",
+	"license": "MIT",
+	"publisher": "Simone Baptiste",
+    "readme": "./README.md",
+    "author": {
+        "name": "Simone Baptiste",
+        "email": "baptistesimone19@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Silimim/UnifaceHighlight"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+		"vscode-languageserver": "^8.1.0",
+		"vscode-languageserver-textdocument": "^1.0.8"
+	},
+	"scripts": {}
+}

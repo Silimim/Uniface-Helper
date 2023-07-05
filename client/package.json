@@ -1,0 +1,29 @@
+{
+	"name": "uniface-client",
+	"description": "Uniface Helper client-side extension",
+    "version": "1.0.0",
+	"license": "MIT",
+	"publisher": "Simone Baptiste",
+    "readme": "./README.md",
+    "author": {
+        "name": "Simone Baptiste",
+        "email": "baptistesimone19@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Silimim/UnifaceHighlight"
+    },
+	"engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+	"dependencies": {
+		"vscode-languageclient": "^8.1.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.75.1",
+		"@vscode/test-electron": "^2.2.3"
+	}
+}

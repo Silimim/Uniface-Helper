@@ -38,7 +38,11 @@
 			"patterns": [
 				{
 					"name": "variable.double.quote.string.uniface",
-					"match": "%%(.*?)%%%"
+					"match": "%%[^\\s]+%%%"
+				},
+				{
+					"name": "variable.double.quote.string.uniface",
+					"match": "%%[^\\s]+ "
 				},
 				{
 					"name": "constant.character.escape",
@@ -53,7 +57,11 @@
 			"patterns": [
 				{
 					"name": "variable.single.quote.string.uniface",
-					"match": "%%(.*?)%%%"
+					"match": "%%[^\\s]+%%%"
+				},
+				{
+					"name": "variable.single.quote.string.uniface",
+					"match": "%%[^\\s]+ "
 				},
 				{
 					"name": "constant.character.escape",
