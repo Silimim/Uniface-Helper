@@ -17,4 +17,4 @@ Introducing snippets for **$** functions, showing parameters and descriptions of
 
 ## Under development
 
- -- Server extension
+ -- lsp extension
