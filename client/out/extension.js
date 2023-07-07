@@ -4,7 +4,40 @@ exports.deactivate = exports.activate = void 0;
 const path = require("path");
 const vscode_1 = require("vscode");
 const node_1 = require("vscode-languageclient/node");
+const vscode = require("vscode");
+const fs = require("fs");
 let client;
+class MyContentProvider {
+    constructor() {
+        this._onDidChange = new vscode.EventEmitter();
+    }
+    provideTextDocumentContent(uri) {
+        const filePath = uri.fsPath;
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const regex = /<trigger>(.*?)<\/trigger>/s;
+        const match = regex.exec(fileContent);
+        const content = match ? match[1] : '';
+        return content;
+    }
+    get onDidChange() {
+        return this._onDidChange.event;
+    }
+    update(uri) {
+        this._onDidChange.fire(uri);
+    }
+}
+// Registra il provider di contenuto personalizzato per lo schema di URI "mycontent"
+const myContentProvider = new MyContentProvider();
+vscode.workspace.registerTextDocumentContentProvider('uni', myContentProvider);
+// Crea un URI personalizzato per il documento
+vscode.workspace.onDidOpenTextDocument(document => {
+    if (path.extname(document.uri.fsPath) === '.xml') {
+        const uri = vscode.Uri.parse(`uni://${document.uri.fsPath.replace('xml', 'uni')}`);
+        vscode.workspace.openTextDocument(uri).then(document => {
+            vscode.window.showTextDocument(document);
+        });
+    }
+});
 function activate(context) {
     const serverModule = context.asAbsolutePath(path.join('server', 'out', 'server.js'));
     const serverOptions = {

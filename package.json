@@ -31,7 +31,7 @@
 					"uniface"
 				],
 				"extensions": [
-					".uni"
+					".uni", ".xml"
 				],
 				"icon": {
 					"light": "./resources/uniface-icon-logo.png",

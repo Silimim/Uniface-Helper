@@ -12,7 +12,7 @@ import {
 	TextDocumentSyncKind,
 	InitializeResult
 } from 'vscode-languageserver/node';
-import { Declaration, DeclarationParams, DeclarationRequest, Definition, DefinitionParams, Hover, HoverParams, MarkupContent, MarkupKind, TypeDefinitionParams } from 'vscode-languageserver';
+import { Declaration, DeclarationParams, DeclarationRequest, Definition, DefinitionParams, Disposable, Hover, HoverParams, MarkupContent, MarkupKind, TypeDefinitionParams } from 'vscode-languageserver';
 import {
 	TextDocument
 } from 'vscode-languageserver-textdocument';

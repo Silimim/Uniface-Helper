@@ -6,8 +6,48 @@ import {
 	ServerOptions,
 	TransportKind
 } from 'vscode-languageclient/node';
+import * as vscode from 'vscode';
+import * as fs from 'fs';
+import { debug } from 'console';
 
 let client: LanguageClient;
+
+class MyContentProvider implements vscode.TextDocumentContentProvider {
+    private _onDidChange = new vscode.EventEmitter<vscode.Uri>();
+
+    public provideTextDocumentContent(uri: vscode.Uri): string {
+        const filePath = uri.fsPath;
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+
+        const regex = /<trigger>(.*?)<\/trigger>/s;
+        const match = regex.exec(fileContent);
+        const content = match ? match[1] : '';
+
+        return content;
+    }
+
+    get onDidChange(): vscode.Event<vscode.Uri> {
+        return this._onDidChange.event;
+    }
+
+    public update(uri: vscode.Uri) {
+        this._onDidChange.fire(uri);
+    }
+}
+
+// Registra il provider di contenuto personalizzato per lo schema di URI "mycontent"
+const myContentProvider = new MyContentProvider();
+vscode.workspace.registerTextDocumentContentProvider('uni', myContentProvider);
+
+// Crea un URI personalizzato per il documento
+vscode.workspace.onDidOpenTextDocument(document => {
+    if (path.extname(document.uri.fsPath) === '.xml') {
+        const uri = vscode.Uri.parse(`uni://${document.uri.fsPath.replace('xml', 'uni')}`);
+        vscode.workspace.openTextDocument(uri).then(document => {
+            vscode.window.showTextDocument(document);
+        });
+    }
+});
 
 export function activate(context: ExtensionContext) {
 
