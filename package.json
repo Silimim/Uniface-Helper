@@ -1,7 +1,7 @@
 {
 	"name": "uniface",
 	"displayName": "Uniface Helper",
-	"description": "Uniface lenguage helper",
+	"description": "Uniface language helper",
 	"version": "1.3.0",
 	"publisher": "Simone Baptiste",
 	"icon": "./resources/uniface-extension-logo.png",
