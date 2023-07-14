@@ -12,7 +12,7 @@ class MyContentProvider {
         this._onDidChange = new vscode.EventEmitter();
     }
     provideTextDocumentContent(uri) {
-        const filePath = uri.fsPath;
+        const filePath = uri.fsPath.replace('.uni', '.xml');
         const fileContent = fs.readFileSync(filePath, 'utf-8');
         const regex = /<trigger>(.*?)<\/trigger>/s;
         const match = regex.exec(fileContent);
@@ -26,14 +26,14 @@ class MyContentProvider {
         this._onDidChange.fire(uri);
     }
 }
-// Registra il provider di contenuto personalizzato per lo schema di URI "mycontent"
 const myContentProvider = new MyContentProvider();
-vscode.workspace.registerTextDocumentContentProvider('uni', myContentProvider);
-// Crea un URI personalizzato per il documento
+const scheme = 'uni';
+// Registra il provider di contenuto personalizzato per lo schema di URI "uni"
+vscode.workspace.registerTextDocumentContentProvider(scheme, myContentProvider);
 vscode.workspace.onDidOpenTextDocument(document => {
     if (path.extname(document.uri.fsPath) === '.xml') {
-        const uri = vscode.Uri.parse(`uni://${document.uri.fsPath.replace('xml', 'uni')}`);
-        vscode.workspace.openTextDocument(uri).then(document => {
+        const uniUri = vscode.Uri.parse(`${scheme}:${document.uri.fsPath}.uni`);
+        vscode.workspace.openTextDocument(uniUri).then(document => {
             vscode.window.showTextDocument(document);
         });
     }
@@ -54,6 +54,34 @@ function activate(context) {
         }
     };
     client = new node_1.LanguageClient('languageServerUniface', 'Language Server Uniface', serverOptions, clientOptions);
+    context.subscriptions.push(vscode.languages.registerFoldingRangeProvider('language-id', {
+        provideFoldingRanges(document, context, token) {
+            const foldingRanges = [];
+            // Find the start and end markers for each folding range
+            const startRegex = /\bentry\b/;
+            const endRegex = /\bend\b/;
+            for (let i = 0; i < document.lineCount; i++) {
+                const line = document.lineAt(i);
+                const startMatch = line.text.match(startRegex);
+                const endMatch = line.text.match(endRegex);
+                if (startMatch) {
+                    const startLine = i;
+                    let endLine = i;
+                    // Find the end of the folding range
+                    for (let j = i + 1; j < document.lineCount; j++) {
+                        const nextLine = document.lineAt(j);
+                        if (endMatch && nextLine.text.match(endRegex)) {
+                            endLine = j;
+                            break;
+                        }
+                    }
+                    // Add the folding range to the list
+                    foldingRanges.push(new vscode.FoldingRange(startLine, endLine));
+                }
+            }
+            return foldingRanges;
+        }
+    }));
     client.start();
 }
 exports.activate = activate;

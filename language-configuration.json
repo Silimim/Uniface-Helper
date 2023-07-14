@@ -23,7 +23,6 @@
         ["entry", "\nend"],
         ["operation", "\nend"],
     ],
-    
     "surroundingPairs": [
         ["(", ")"],
         ["[", "]"],
